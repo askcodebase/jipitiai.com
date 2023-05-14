@@ -1,13 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 36 36">
-  <path fill="#000" d="M22.25 4h-8.5a1 1 0 0 0-.96.73l-5.54 19.4a.5.5 0 0 0 .62.62l5.05-1.44a2 2 0 0 0 1.38-1.4l3.22-11.66a.5.5 0 0 1 .96 0l3.22 11.67a2 2 0 0 0 1.38 1.39l5.05 1.44a.5.5 0 0 0 .62-.62l-5.54-19.4a1 1 0 0 0-.96-.73Z"/>
-  <path fill="url(#gradient)" d="M18 28a7.63 7.63 0 0 1-5-2c-1.4 2.1-.35 4.35.6 5.55.14.17.41.07.47-.15.44-1.8 2.93-1.22 2.93.6 0 2.28.87 3.4 1.72 3.81.34.16.59-.2.49-.56-.31-1.05-.29-2.46 1.29-3.25 3-1.5 3.17-4.83 2.5-6-.67.67-2.6 2-5 2Z"/>
-  <defs>
-    <linearGradient id="gradient" x1="16" x2="16" y1="32" y2="24" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#000"/>
-      <stop offset="1" stop-color="#000" stop-opacity="0"/>
-    </linearGradient>
-  </defs>
-	<style>
-    @media (prefers-color-scheme:dark){:root{filter:invert(100%)}}
-  </style>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="354" height="353" viewBox="0 0 354 353" fill="none"><g opacity="1"  transform="translate(0 0)  rotate(0)"><g opacity="1"  transform="translate(0 0)  rotate(0)"><rect fill="#FFFFFF" opacity="1" transform="translate(0 0)  rotate(0)" x="0" y="0" width="354" height="353" rx="25" /><mask id="bg-mask-0" fill="white"><use xlink:href="#path_0"></use></mask><g mask="url(#bg-mask-0)" ></g></g><path id="路径 2" fill-rule="evenodd" style="fill:#3A66F3" opacity="1" d="M127,121.5v-23.5c0,-2.76 2.24,-5 5,-5h44c2.76,0 5,2.24 5,5v23.5c0,2.76 -2.24,5 -5,5h-44c-2.76,0 -5,-2.24 -5,-5zM127,232v-81c0,-2.76 2.24,-5 5,-5h44c2.76,0 5,2.24 5,5v109.73c0,2.87 -2.4,5.15 -5.26,5l-105,-5.48c-2.66,-0.14 -4.74,-2.34 -4.74,-5v-44.25c0,-2.76 2.24,-5 5,-5h24.5c2.76,0 5,2.24 5,5v21c0,2.76 2.24,5 5,5h16.5c2.76,0 5,-2.24 5,-5zM212,261v-110c0,-2.76 2.24,-5 5,-5h42.5c2.76,0 5,2.24 5,5v110c0,2.76 -2.24,5 -5,5h-42.5c-2.76,0 -5,-2.24 -5,-5z"></path><path id="矩形 3" fill-rule="evenodd" style="fill:#FFA92A" opacity="1" d="M216 127L260 127C262.76 127 265 124.76 265 122L265 98C265 95.24 262.76 93 260 93L216 93C213.24 93 211 95.24 211 98L211 122C211 124.76 213.24 127 216 127Z"></path></g><defs><rect id="path_0" x="0" y="0" width="354" height="353" /></defs></svg>

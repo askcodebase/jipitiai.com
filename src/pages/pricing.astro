@@ -6,58 +6,55 @@ import Pricing from "@components/pricing.astro";
 
 const pricing = [
   {
-    name: "Personal",
-    price: "Free",
-    popular: false,
+    name: "个人版",
+    price: "终身免费",
+    popular: true,
     features: [
-      "Lifetime free",
-      "Up to 3 users",
-      "Unlimited Pages",
-      "Astro Sub domain",
-      "Basic Integrations",
-      "Community Support",
+      "私有化本地离线部署",
+      "支持本地单用户使用",
+      "代码开源可控自由度高",
+      "自主管理和维护",
+      "基于 MPL 2.0 开源许可证",
+      "社区支持和更新",
     ],
     button: {
-      text: "Get Started",
+      text: "立刻开始",
       link: "/",
     },
   },
   {
-    name: "Startup",
+    name: "团队版",
     price: {
-      monthly: "$19",
-      annual: "$16",
-      discount: "10%",
-      original: "$24",
+      monthly: "¥30/人/月",
     },
-    popular: true,
+    popular: false,
     features: [
-      "All Free Features",
-      "Up to 20 users",
-      "20 Custom domains",
-      "Unlimited Collaborators",
-      "Advanced Integrations",
-      "Priority Support",
+      "包含所有个人版功能",
+      "云托管实例一键部署",
+      "支持10人以下的团队使用",
+      "端到端数据加密",
+      "数据云同步多端使用",
+      "优先技术支持",
     ],
     button: {
-      text: "Get Started",
+      text: "敬请期待",
       link: "#",
     },
   },
   {
-    name: "Enterprise",
-    price: "Custom",
+    name: "企业版",
+    price: "联系商务",
     popular: false,
     features: [
-      "All Pro Features",
-      "Unlimited Custom domains",
-      "99.99% Uptime SLA",
-      "SAML & SSO Integration",
-      "Dedicated Account Manager",
-      "24/7 Phone Support",
+      "包含所有团队版功能",
+      "支持 API 用于第三方集成",
+      "SAML & SSO集成",
+      "定制解决方案",
+      "专属客户经理",
+      "极速电话响应",
     ],
     button: {
-      text: "Contact us",
+      text: "升级咨询",
       link: "/contact",
     },
   },
@@ -67,14 +64,12 @@ const pricing = [
 <Layout title="Pricing">
   <Container>
     <Sectionhead>
-      <Fragment slot="title">Pricing</Fragment>
-      <Fragment slot="desc"
-        >Simple & Predictable pricing. No Surprises.</Fragment
-      >
+      <Fragment slot="title">产品价格</Fragment>
+      <Fragment slot="desc">明码标价，根据您的需求选择适合您的版本。</Fragment>
     </Sectionhead>
-
-    <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-screen-lg mt-12">
-      {pricing.map((item) => <Pricing plan={item} />)}
-    </div>
   </Container>
+
+  <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-screen-lg mt-12">
+    {pricing.map((item) => <Pricing plan={item} />)}
+  </div>
 </Layout>
